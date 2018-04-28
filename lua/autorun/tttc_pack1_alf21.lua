@@ -18,24 +18,27 @@ if SERVER then
     resource.AddWorkshop("671603913")
 end
 
-AddCustomClass("MANIPULATOR", {
-    --color = Color(),
-    name = "manipulator"
-})
-AddCustomClass("GHOST", {
-    --color = Color(),
-    name = "ghost"
-})
+hook.Add("TTT2_PreClassesInit", "InitClassPackOne", function()
+    AddCustomClass("MANIPULATOR", {
+        --color = Color(),
+        name = "manipulator"
+    })
 
-AddCustomClass("SANTA", {
-    --color = Color(),
-    name = "santa"
-})
+    AddCustomClass("GHOST", {
+        --color = Color(),
+        name = "ghost"
+    })
 
-AddCustomClass("SPEEDER", {
-    --color = Color(),
-    name = "speeder"
-})
+    AddCustomClass("SANTA", {
+        --color = Color(),
+        name = "santa"
+    })
+
+    AddCustomClass("SPEEDER", {
+        --color = Color(),
+        name = "speeder"
+    })
+end)
 
 hook.Add("TTT2_FinishedClassesSync", "TTT2ClassPackInit", function(ply, first)
 	if CLIENT and first then -- just on client and first init !
