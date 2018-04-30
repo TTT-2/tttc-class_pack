@@ -8,9 +8,6 @@ if SERVER then
     -- blink
     resource.AddWorkshop("802015788")
     
-    -- present of fate
-    resource.AddWorkshop("596033434")
-    
     -- cloaking device
     resource.AddWorkshop("922599473")
     
@@ -29,11 +26,6 @@ hook.Add("TTT2_PreClassesInit", "InitClassPackOne", function()
         name = "ghost"
     })
 
-    AddCustomClass("SANTA", {
-        --color = Color(),
-        name = "santa"
-    })
-
     AddCustomClass("SPEEDER", {
         --color = Color(),
         name = "speeder"
@@ -47,13 +39,11 @@ hook.Add("TTT2_FinishedClassesSync", "TTT2ClassPackInit", function(ply, first)
 		-- setup basic translation !
 		LANG.AddToLanguage("English", CLASSES.MANIPULATOR.name, "Manipulator")
 		LANG.AddToLanguage("English", CLASSES.GHOST.name, "Ghost")
-		LANG.AddToLanguage("English", CLASSES.SANTA.name, "Santa")
 		LANG.AddToLanguage("English", CLASSES.SPEEDER.name, "Speeder")
         
         -- just this language too
 		LANG.AddToLanguage("Deutsch", CLASSES.MANIPULATOR.name, "Manipulierer")
 		LANG.AddToLanguage("Deutsch", CLASSES.GHOST.name, "Geist")
-		LANG.AddToLanguage("Deutsch", CLASSES.SANTA.name, "Santa")
 		LANG.AddToLanguage("Deutsch", CLASSES.SPEEDER.name, "Speeder")
     end
 end)
@@ -64,14 +54,12 @@ if SERVER then
             local cls = ply:GetCustomClass()
             
             if cls == CLASSES.MANIPULATOR.index then
-                ply:Give("weapon_ttt_satm")
+                ply:GiveClassWeapon("weapon_ttt_satm")
             elseif cls == CLASSES.GHOST.index then
-                ply:Give("weapon_ttt_cloak")
-                ply:Give("weapon_ttt_ghostknife")
-            elseif cls == CLASSES.SANTA.index then
-                ply:Give("weapon_ttt_gift")
+                ply:GiveClassWeapon("weapon_ttt_cloak")
+                ply:GiveClassWeapon("weapon_ttt_ghostknife")
             elseif cls == CLASSES.SPEEDER.index then
-                ply:Give("weapon_vadim_blink")
+                ply:GiveClassWeapon("weapon_vadim_blink")
             end
         end
     end)
