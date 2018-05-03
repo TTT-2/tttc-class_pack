@@ -5,30 +5,40 @@ if SERVER then
     -- ghost knife
     resource.AddWorkshop("1326662749")
     
-    -- blink
-    resource.AddWorkshop("802015788")
-    
     -- cloaking device
     resource.AddWorkshop("922599473")
+    
+    -- blink
+    resource.AddWorkshop("802015788")
     
     -- manipulator
     resource.AddWorkshop("671603913")
 end
 
-hook.Add("TTT2_PreClassesInit", "InitClassPackOne", function()
+hook.Add("TTTCPreClassesInit", "InitClassPackOne", function()
     AddCustomClass("MANIPULATOR", {
         --color = Color(),
-        name = "manipulator"
+        name = "manipulator",
+        weapons = {
+            "weapon_ttt_satm"
+        }
     })
 
     AddCustomClass("GHOST", {
         --color = Color(),
-        name = "ghost"
+        name = "ghost",
+        weapons = {
+            "weapon_ttt_cloak",
+            "weapon_ttt_ghostknife"
+        }
     })
 
     AddCustomClass("SPEEDER", {
         --color = Color(),
-        name = "speeder"
+        name = "speeder",
+        weapons = {
+            "weapon_vadim_blink"
+        }
     })
 end)
 
@@ -47,20 +57,3 @@ hook.Add("TTT2_FinishedClassesSync", "TTT2ClassPackInit", function(ply, first)
 		LANG.AddToLanguage("Deutsch", CLASSES.SPEEDER.name, "Speeder")
     end
 end)
-
-if SERVER then
-    hook.Add("TTT2_ReceiveCustomClass", "TTT2ClassPackSetup", function(ply)
-        if ply:Alive() and ply:HasCustomClass() then
-            local cls = ply:GetCustomClass()
-            
-            if cls == CLASSES.MANIPULATOR.index then
-                ply:GiveClassWeapon("weapon_ttt_satm")
-            elseif cls == CLASSES.GHOST.index then
-                ply:GiveClassWeapon("weapon_ttt_cloak")
-                ply:GiveClassWeapon("weapon_ttt_ghostknife")
-            elseif cls == CLASSES.SPEEDER.index then
-                ply:GiveClassWeapon("weapon_vadim_blink")
-            end
-        end
-    end)
-end
