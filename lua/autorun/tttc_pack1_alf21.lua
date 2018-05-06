@@ -42,7 +42,7 @@ hook.Add("TTTCPreClassesInit", "InitClassPackOne", function()
     })
 end)
 
-hook.Add("TTT2_FinishedClassesSync", "TTT2ClassPackInit", function(ply, first)
+hook.Add("TTTCFinishedClassesSync", "TTTCClassPackInit", function(ply, first)
 	if CLIENT and first then -- just on client and first init !
 
 		-- setup here is not necessary but if you want to access the role data, you need to start here
