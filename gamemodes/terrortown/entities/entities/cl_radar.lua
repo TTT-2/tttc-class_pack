@@ -268,7 +268,7 @@ else
     
     hook.Add("TTTEquipmentTabs", "TTTEquipTabsRadarCustom", function(dsheet)
        -- Item control
-       if ply:HasEquipmentItem(EQUIP_RADAR_CUSTOM) then
+       if LocalPlayer():HasEquipmentItem(EQUIP_RADAR_CUSTOM) then
           local dradar = RADAR_CUSTOM.CreateMenu(dsheet)
           
           dsheet:AddSheet(GetTranslation("radar_name"), dradar, "icon16/magnifier.png", false, false, "Custom Radar control")
