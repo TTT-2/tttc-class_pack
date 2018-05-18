@@ -118,6 +118,7 @@ if SERVER then
             name = "jedi",
             weapons = {
                 "weapon_ttt_traitor_lightsaber"
+                -- TTT Lightning Strike
             },
             items = {
                 EQUIP_BLUE_BULL
