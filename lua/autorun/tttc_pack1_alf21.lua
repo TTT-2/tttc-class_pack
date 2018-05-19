@@ -109,7 +109,7 @@ if SERVER then
                 "genji_melee"
             },
             items = {
-                EQUIP_BLUE_BULL
+                EQUIP_BLUE_BULL_CUSTOM
             }
         })
         
@@ -121,7 +121,7 @@ if SERVER then
                 -- TTT Lightning Strike
             },
             items = {
-                EQUIP_BLUE_BULL
+                EQUIP_BLUE_BULL_CUSTOM
             }
         })
         

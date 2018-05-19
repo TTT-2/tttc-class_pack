@@ -10,7 +10,7 @@ local math = math
 
 concommand.Add("ttt_radar_custom_scan", function(ply, cmd, args)
    if IsValid(ply) and ply:IsTerror() then
-      if ply:HasEquipmentItem(EQUIP_RADAR_CUSTOM) then
+      if not ply:HasEquipmentItem(EQUIP_RADAR) and ply:HasEquipmentItem(EQUIP_RADAR_CUSTOM) then
          if (ply.radar_custom_charge or 0) > CurTime() then
             LANG.Msg(ply, "radar_charging")
             

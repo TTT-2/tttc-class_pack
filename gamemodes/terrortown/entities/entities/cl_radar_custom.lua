@@ -206,6 +206,7 @@ else
        end)
     end)
 
+    --[[
     local GetTranslation = LANG.GetTranslation
 
     function RADAR_CUSTOM.CreateMenu(parent)
@@ -232,7 +233,7 @@ else
        dscan.DoClick = function(s)
           s:SetDisabled(true)
           RunConsoleCommand("ttt_radar_custom_scan")
-          parent:GetPanel():Close()
+          --parent:GetPanel():Close()
        end
 
        dform:AddItem(dscan)
@@ -274,4 +275,5 @@ else
           dsheet:AddSheet(GetTranslation("radar_name"), dradar, "icon16/magnifier.png", false, false, "Custom Radar control")
        end
     end)
+    ]]--
 end
