@@ -25,7 +25,6 @@ if SERVER then
         AddCustomClass("MANIPULATOR", {
             --color = Color(),
             name = "manipulator",
-            printName = "Manipulator",
             weapons = {
                 "weapon_ttt_satm"
             }
@@ -34,7 +33,6 @@ if SERVER then
         AddCustomClass("GHOST", {
             --color = Color(),
             name = "ghost",
-            printName = "Ghost",
             weapons = {
                 "weapon_ttt_cloak",
                 "weapon_ttt_ghostknife"
@@ -44,7 +42,6 @@ if SERVER then
         AddCustomClass("SPEEDER", {
             --color = Color(),
             name = "speeder",
-            printName = "Speeder",
             weapons = {
                 "weapon_vadim_blink"
             }
@@ -53,7 +50,6 @@ if SERVER then
         AddCustomClass("PSFAN", {
             color = Color(0, 230, 0, 255),
             name = "pietsmietfan",
-            printName = "Pietsmiet Fan",
             weapons = {
                 "weapon_ttt_ofb",
                 "weapon_pietgun"
@@ -65,7 +61,6 @@ if SERVER then
         AddCustomClass("RAGELORD", {
             color = Color(153, 0, 0, 255),
             name = "ragelord",
-            printName = "Rage Lord",
             weapons = {
                 "weapon_angryhobo",
                 "weapon_ttt_spartankick"
@@ -77,7 +72,6 @@ if SERVER then
         AddCustomClass("PENNER", {
             color = Color(153, 102, 51, 255),
             name = "penner",
-            printName = "Penner",
             weapons = {
                 "weapon_angryhobo",
                 "weapon_ttt_jarate"
@@ -89,7 +83,6 @@ if SERVER then
         AddCustomClass("VET", {
             color = Color(0, 255, 0, 255),
             name = "vet",
-            printName = "Vet",
             weapons = {
                 "weapon_ttt_homingpigeon",
                 "weapon_ttt_mine_turtle"
@@ -101,7 +94,6 @@ if SERVER then
         AddCustomClass("NOOB", {
             color = Color(0, 255, 0, 255),
             name = "noob",
-            printName = "Noob",
             weapons = {
                 "weapon_ttt_homingpigeon",
                 "weapon_ttt_mirrorfate"
@@ -113,7 +105,6 @@ if SERVER then
         AddCustomClass("SAMURAI", {
             color = Color(204, 51, 0, 255),
             name = "samurai",
-            printName = "Samurai",
             weapons = {
                 "genji_melee"
             },
@@ -125,10 +116,8 @@ if SERVER then
         AddCustomClass("JEDI", {
             color = Color(51, 51, 153, 255),
             name = "jedi",
-            printName = "Jedi",
             weapons = {
                 "weapon_ttt_detective_lightsaber"
-                -- TTT Lightning Strike
             },
             items = {
                 EQUIP_BLUE_BULL_CUSTOM
@@ -138,7 +127,6 @@ if SERVER then
         AddCustomClass("LUCKYLUKE", {
             color = Color(230, 230, 0, 255),
             name = "luckyluke",
-            printName = "Lucky Luke",
             weapons = {
                 "weapon_ttt_peacekeeper"
             }
@@ -147,7 +135,6 @@ if SERVER then
         AddCustomClass("RAMBO", {
             color = Color(255, 102, 0, 255),
             name = "rambo",
-            printName = "Rambo",
             weapons = {
                 "weapon_minigun"
             },
@@ -159,7 +146,6 @@ if SERVER then
         AddCustomClass("FREEZER", {
             color = Color(51, 153, 255, 255),
             name = "freezer",
-            printName = "Freezer",
             weapons = {
                 "weapon_ttt_freezegun"
             }
@@ -187,7 +173,7 @@ else
 -- hooks
 --------
 
-    hook.Add("TTTCFinishedClassesSync", "TTTCClassPackInit", function(ply, first)
+    hook.Add("TTTCFinishedClassesSync", "TTTCClassPackInit", function(_, first)
         if first then -- just on client and first init !
 
             -- setup here is not necessary but if you want to access the role data, you need to start here
