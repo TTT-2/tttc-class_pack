@@ -24,7 +24,8 @@ if SERVER then
     hook.Add("TTTCPreClassesInit", "InitOPClassPackAlf21", function()
         AddCustomClass("MANIPULATOR", {
             --color = Color(),
-            name = "Manipulator",
+            name = "manipulator",
+            printName = "Manipulator",
             weapons = {
                 "weapon_ttt_satm"
             }
@@ -32,7 +33,8 @@ if SERVER then
 
         AddCustomClass("GHOST", {
             --color = Color(),
-            name = "Ghost",
+            name = "ghost",
+            printName = "Ghost",
             weapons = {
                 "weapon_ttt_cloak",
                 "weapon_ttt_ghostknife"
@@ -41,7 +43,8 @@ if SERVER then
 
         AddCustomClass("SPEEDER", {
             --color = Color(),
-            name = "Speeder",
+            name = "speeder",
+            printName = "Speeder",
             weapons = {
                 "weapon_vadim_blink"
             }
@@ -49,7 +52,8 @@ if SERVER then
         
         AddCustomClass("PSFAN", {
             color = Color(0, 230, 0, 255),
-            name = "Pietsmiet Fan",
+            name = "pietsmietfan",
+            printName = "Pietsmiet Fan",
             weapons = {
                 "weapon_ttt_ofb",
                 "weapon_pietgun"
@@ -60,7 +64,8 @@ if SERVER then
         
         AddCustomClass("RAGELORD", {
             color = Color(153, 0, 0, 255),
-            name = "Rage Lord",
+            name = "ragelord",
+            printName = "Rage Lord",
             weapons = {
                 "weapon_angryhobo",
                 "weapon_ttt_spartankick"
@@ -71,7 +76,8 @@ if SERVER then
         
         AddCustomClass("PENNER", {
             color = Color(153, 102, 51, 255),
-            name = "Penner",
+            name = "penner",
+            printName = "Penner",
             weapons = {
                 "weapon_angryhobo",
                 "weapon_ttt_jarate"
@@ -82,7 +88,8 @@ if SERVER then
         
         AddCustomClass("VET", {
             color = Color(0, 255, 0, 255),
-            name = "Vet",
+            name = "vet",
+            printName = "Vet",
             weapons = {
                 "weapon_ttt_homingpigeon",
                 "weapon_ttt_mine_turtle"
@@ -93,7 +100,8 @@ if SERVER then
         
         AddCustomClass("NOOB", {
             color = Color(0, 255, 0, 255),
-            name = "Noob",
+            name = "noob",
+            printName = "Noob",
             weapons = {
                 "weapon_ttt_homingpigeon",
                 "weapon_ttt_mirrorfate"
@@ -104,7 +112,8 @@ if SERVER then
         
         AddCustomClass("SAMURAI", {
             color = Color(204, 51, 0, 255),
-            name = "Samurai",
+            name = "samurai",
+            printName = "Samurai",
             weapons = {
                 "genji_melee"
             },
@@ -115,7 +124,8 @@ if SERVER then
         
         AddCustomClass("JEDI", {
             color = Color(51, 51, 153, 255),
-            name = "Jedi",
+            name = "jedi",
+            printName = "Jedi",
             weapons = {
                 "weapon_ttt_detective_lightsaber"
                 -- TTT Lightning Strike
@@ -127,7 +137,8 @@ if SERVER then
         
         AddCustomClass("LUCKYLUKE", {
             color = Color(230, 230, 0, 255),
-            name = "Lucky Luke",
+            name = "luckyluke",
+            printName = "Lucky Luke",
             weapons = {
                 "weapon_ttt_peacekeeper"
             }
@@ -135,7 +146,8 @@ if SERVER then
         
         AddCustomClass("RAMBO", {
             color = Color(255, 102, 0, 255),
-            name = "Rambo",
+            name = "rambo",
+            printName = "Rambo",
             weapons = {
                 "weapon_minigun"
             },
@@ -146,7 +158,8 @@ if SERVER then
         
         AddCustomClass("FREEZER", {
             color = Color(51, 153, 255, 255),
-            name = "Freezer",
+            name = "freezer",
+            printName = "Freezer",
             weapons = {
                 "weapon_ttt_freezegun"
             }
