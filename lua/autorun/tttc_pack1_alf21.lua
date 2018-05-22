@@ -51,7 +51,7 @@ if SERVER then
             color = Color(0, 230, 0, 255),
             name = "pietsmietfan",
             weapons = {
-                "weapon_ttt_ofb",
+                "weapon_pietbomb",
                 "weapon_pietgun"
             }
         }, {
