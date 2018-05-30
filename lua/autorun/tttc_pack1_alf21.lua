@@ -109,7 +109,7 @@ if SERVER then
                 "genji_melee"
             },
             items = {
-                EQUIP_BLUE_BULL_CUSTOM
+                EQUIP_BLUE_BULL
             }
         })
         
@@ -120,7 +120,8 @@ if SERVER then
                 "weapon_ttt_detective_lightsaber"
             },
             items = {
-                EQUIP_BLUE_BULL_CUSTOM
+                EQUIP_BLUE_BULL,
+				EQUIP_NOFALLDMG
             }
         })
         
@@ -157,16 +158,8 @@ if SERVER then
     --         Custom Hooks
     --
     ---------------------------------
-    
-    hook.Add("OnPlayerHitGround", "OPClassPackAlf21HitGround", function(ply, _, _, _)
-        if ply:IsActive() and ply:HasCustomClass() then
-            local cls = ply:GetCustomClass()
-        
-            if cls == CLASSES.JEDI.index then
-                return false
-            end
-        end
-	end)
+	
+	--
 else
 
 --------
