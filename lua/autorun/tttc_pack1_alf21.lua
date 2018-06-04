@@ -109,7 +109,7 @@ if SERVER then
                 "genji_melee"
             },
             items = {
-                EQUIP_BLUE_BULL_CUSTOM
+                EQUIP_BLUE_BULL
             }
         })
         
@@ -120,7 +120,7 @@ if SERVER then
                 "weapon_ttt_detective_lightsaber"
             },
             items = {
-                EQUIP_BLUE_BULL_CUSTOM,
+                EQUIP_BLUE_BULL,
 				EQUIP_NOFALLDMG
             }
         })
