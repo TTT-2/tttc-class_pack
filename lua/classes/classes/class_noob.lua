@@ -1,16 +1,13 @@
 CLASS.AddClass("NOOB", {
 	color = Color(60, 60, 80, 255),
-	passiveItems = {
-
-	},
-	onClassSet = function(ply)
+	OnSet = function(ply)
 		if SERVER then
 			ply:GiveArmor(60)
 			ply:SetHealth(50)
 			ply:SetMaxHealth(50)
 		end
 	end,
-	onClassUnset = function(ply)
+	OnUnset = function(ply)
 		if SERVER then
 			ply:RemoveArmor(60)
 			ply:SetHealth(100)

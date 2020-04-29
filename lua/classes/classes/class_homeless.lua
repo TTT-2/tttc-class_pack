@@ -1,8 +1,5 @@
 CLASS.AddClass("HOMELESS", {
 	color = Color(153, 102, 51, 255),
-	passiveItems = {
-
-	},
 	passiveWeapons = {
 		"weapon_vadim_angryhobo",
 		"weapon_ttt_jarate"

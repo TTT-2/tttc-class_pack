@@ -1,8 +1,5 @@
 CLASS.AddClass("VET", {
 	color = Color(150, 215, 40, 255),
-	passiveItems = {
-
-	},
 	passiveWeapons = {
 		"swep_homingpigeon",
 		"weapon_ttt_mine_turtle"

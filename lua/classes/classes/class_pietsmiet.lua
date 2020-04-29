@@ -1,8 +1,5 @@
 CLASS.AddClass("PIETSMIETFAN", {
 	color = Color(76, 156, 0, 255),
-	passiveItems = {
-
-	},
 	passiveWeapons = {
 		"weapon_pietbomb",
 		"weapon_pietgun"

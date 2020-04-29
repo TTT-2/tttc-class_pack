@@ -1,8 +1,5 @@
 CLASS.AddClass("LUCKYLUKE", {
 	color = Color(230, 230, 0, 255),
-	passiveItems = {
-
-	},
 	passiveWeapons = {
 		"weapon_ttt_peacekeeper"
 	},

@@ -1,8 +1,5 @@
 CLASS.AddClass("MANIPULATOR", {
 	color = Color(215, 75, 40, 255),
-	passiveItems = {
-
-	},
 	passiveWeapons = {
 		"weapon_ttt_satm"
 	},

@@ -1,17 +1,14 @@
 CLASS.AddClass("RAMBO", {
 	color = Color(255, 102, 0, 255),
-	passiveItems = {
-
-	},
 	passiveWeapons = {
 		"weapon_minigun"
 	},
-	onClassSet = function(ply)
+	OnSet = function(ply)
 		if SERVER then
 			ply:GiveArmor(60)
 		end
 	end,
-	onClassUnset = function(ply)
+	OnUnset = function(ply)
 		if SERVER then
 			ply:RemoveArmor(60)
 		end

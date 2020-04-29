@@ -1,8 +1,5 @@
 CLASS.AddClass("RAGELORD", {
 	color = Color(153, 0, 0, 255),
-	passiveItems = {
-
-	},
 	passiveWeapons = {
 		"weapon_vadim_angryhobo",
 		"weapon_ttt_spartankick"
