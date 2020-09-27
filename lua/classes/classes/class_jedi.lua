@@ -10,11 +10,13 @@ CLASS.AddClass("JEDI", {
 	lang = {
 		name = {
 			English = "Jedi",
-			Deutsch = "Jedi"
+			Deutsch = "Jedi",
+			Русский = "Джедай"
 		},
 		desc = {
 			English = "May the force be with you!",
-			Deutsch = "Möge die Macht mit dir sein!"
+			Deutsch = "Möge die Macht mit dir sein!",
+			Русский = "Да прибудет с тобой сила!"
 		}
 	}
 })

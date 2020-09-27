@@ -7,11 +7,13 @@ CLASS.AddClass("RAGELORD", {
 	lang = {
 		name = {
 			English = "Ragelord",
-			Deutsch = "Choleriker"
+			Deutsch = "Choleriker",
+			Русский = "Холерик"
 		},
 		desc = {
 			English = "A tiny problem sometimes causes huge problems!",
-			Deutsch = "Ein kleines Problem verursacht manchmal große Probleme!"
+			Deutsch = "Ein kleines Problem verursacht manchmal große Probleme!",
+			Русский = "Маленькая проблема иногда вызывает огромные проблемы!"
 		}
 	}
 }, {random = 10})
