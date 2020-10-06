@@ -6,11 +6,13 @@ CLASS.AddClass("LUCKYLUKE", {
 	lang = {
 		name = {
 			English = "Lucky Luke",
-			Deutsch = "Lucky Luke"
+			Deutsch = "Lucky Luke",
+			Русский = "Счастливчик Люк"
 		},
 		desc = {
 			English = "He shoots faster than his shadow!",
-			Deutsch = "Er zielt schneller als sein Schatten!"
+			Deutsch = "Er zielt schneller als sein Schatten!",
+			Русский = "Он стреляет быстрее своей тени!"
 		}
 	}
 })

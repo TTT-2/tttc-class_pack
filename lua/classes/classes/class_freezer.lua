@@ -6,11 +6,13 @@ CLASS.AddClass("FREEZER", {
 	lang = {
 		name = {
 			English = "Freezer",
-			Deutsch = "Frostmensch"
+			Deutsch = "Frostmensch",
+			Русский = "Морозилка"
 		},
 		desc = {
 			English = "Cool them down!",
-			Deutsch = "Kühle sie ab!"
+			Deutsch = "Kühle sie ab!",
+			Русский = "Охладите их!"
 		}
 	}
 })

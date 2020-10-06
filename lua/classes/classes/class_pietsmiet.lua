@@ -7,11 +7,13 @@ CLASS.AddClass("PIETSMIETFAN", {
 	lang = {
 		name = {
 			English = "PietSmiet Fan",
-			Deutsch = "PietSmiet Fan"
+			Deutsch = "PietSmiet Fan",
+			Русский = "Фанат PietSmiet"
 		},
 		desc = {
 			English = "This is a class for real Pietsmiet Fans!",
-			Deutsch = "Diese Klasse ist für richtige Pietsmiet Fans!"
+			Deutsch = "Diese Klasse ist für richtige Pietsmiet Fans!",
+			Русский = "Этот класс для настоящих фанатов Pietsmiet!"
 		}
 	}
 }, {random = 5})

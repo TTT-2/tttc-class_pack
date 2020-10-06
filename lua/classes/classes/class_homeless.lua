@@ -7,11 +7,13 @@ CLASS.AddClass("HOMELESS", {
 	lang = {
 		name = {
 			English = "Homeless",
-			Deutsch = "Obdachloser"
+			Deutsch = "Obdachloser",
+			Русский = "Бездомный"
 		},
 		desc = {
 			English = "You don't have a home, but something else...",
-			Deutsch = "Du hast zwar kein Zuhause, dafür aber etwas anderes..."
+			Deutsch = "Du hast zwar kein Zuhause, dafür aber etwas anderes...",
+			Русский = "У тебя нет дома, но есть что-то ещё..."
 		}
 	}
 }, {random = 10})

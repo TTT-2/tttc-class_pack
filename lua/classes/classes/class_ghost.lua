@@ -7,11 +7,13 @@ CLASS.AddClass("GHOST", {
 	lang = {
 		name = {
 			English = "Ghost",
-			Deutsch = "Geist"
+			Deutsch = "Geist",
+			Русский = "Приведение"
 		},
 		desc = {
 			English = "Just be a ghost!",
-			Deutsch = "Sei einfach wie ein Geist!"
+			Deutsch = "Sei einfach wie ein Geist!",
+			Русский = "Просто будь приведением!"
 		}
 	}
 })

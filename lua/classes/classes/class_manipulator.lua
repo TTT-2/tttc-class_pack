@@ -6,11 +6,13 @@ CLASS.AddClass("MANIPULATOR", {
 	lang = {
 		name = {
 			English = "Manipulator",
-			Deutsch = "Manipulierer"
+			Deutsch = "Manipulierer",
+			Русский = "Манипулятор"
 		},
 		desc = {
 			English = "Manipulate the game!",
-			Deutsch = "Manipuliere das Spiel!"
+			Deutsch = "Manipuliere das Spiel!",
+			Русский = "Манипулируйте игрой!"
 		}
 	}
 })

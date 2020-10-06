@@ -16,11 +16,13 @@ CLASS.AddClass("RAMBO", {
 	lang = {
 		name = {
 			English = "Rambo",
-			Deutsch = "Rambo"
+			Deutsch = "Rambo",
+			Русский = "Рэмбо"
 		},
 		desc = {
 			English = "Use your minigun to shoot them down!",
-			Deutsch = "Nutze deine Minigun um sie alle zu erledigen!"
+			Deutsch = "Nutze deine Minigun um sie alle zu erledigen!",
+			Русский = "Используйте свой миниган, чтобы сбить их!"
 		}
 	}
 })
