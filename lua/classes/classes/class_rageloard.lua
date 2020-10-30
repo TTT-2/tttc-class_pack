@@ -8,7 +8,7 @@ CLASS.AddClass("RAGELORD", {
 		name = {
 			English = "Ragelord",
 			Deutsch = "Choleriker",
-			French = "Cholérique",	
+			French = "Colérique",	
 			Русский = "Холерик"
 		},
 		desc = {
