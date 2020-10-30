@@ -8,11 +8,13 @@ CLASS.AddClass("PIETSMIETFAN", {
 		name = {
 			English = "PietSmiet Fan",
 			Deutsch = "PietSmiet Fan",
+			French = "Fan de PietSmiet",	
 			Русский = "Фанат PietSmiet"
 		},
 		desc = {
 			English = "This is a class for real Pietsmiet Fans!",
 			Deutsch = "Diese Klasse ist für richtige Pietsmiet Fans!",
+			French = "C'est une classe pour les vrais fans de Pietsmiet!",	
 			Русский = "Этот класс для настоящих фанатов Pietsmiet!"
 		}
 	}

@@ -22,11 +22,13 @@ CLASS.AddClass("NOOB", {
 		name = {
 			English = "Noob",
 			Deutsch = "Anfänger",
+			French = "Noob",	
 			Русский = "Нуб"
 		},
 		desc = {
 			English = "Yep, you're a noob...",
 			Deutsch = "Jap, du bist ein Noob...",
+			French = "Oui, tu es un noob...",	
 			Русский = "Ага, ты нуб..."
 		}
 	}
