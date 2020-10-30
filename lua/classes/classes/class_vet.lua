@@ -8,11 +8,13 @@ CLASS.AddClass("VET", {
 		name = {
 			English = "Vet",
 			Deutsch = "Tierarzt",
+			French	= "Vétérinaire",
 			Русский = "Ветеринар"
 		},
 		desc = {
 			English = "Animals are soo cute!",
 			Deutsch = "Tiere sind soo knuddelig!",
+			French  = "Les animaux sont si mignons!",	
 			Русский = "Животные такие милые!"
 		}
 	}
