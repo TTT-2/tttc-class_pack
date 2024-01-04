@@ -10,13 +10,13 @@ CLASS.AddClass("SAMURAI", {
 		name = {
 			English = "Samurai",
 			Deutsch = "Samurai",
-			French = "Samouraï",	
+			French = "Samouraï",
 			Русский = "Самурай"
 		},
 		desc = {
 			English = "Fight for your honor!",
 			Deutsch = "Kämpfe für deine Ehre!",
-			French = "Combattez pour votre honneur!",	
+			French = "Combattez pour votre honneur!",
 			Русский = "Боритесь за свою честь!"
 		}
 	}

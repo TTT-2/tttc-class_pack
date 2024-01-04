@@ -14,7 +14,7 @@ CLASS.AddClass("VET", {
 		desc = {
 			English = "Animals are soo cute!",
 			Deutsch = "Tiere sind soo knuddelig!",
-			French = "Les animaux sont si mignons!",	
+			French = "Les animaux sont si mignons!",
 			Русский = "Животные такие милые!"
 		}
 	}

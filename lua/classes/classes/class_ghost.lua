@@ -8,13 +8,13 @@ CLASS.AddClass("GHOST", {
 		name = {
 			English = "Ghost",
 			Deutsch = "Geist",
-			French = "Fantôme",	
+			French = "Fantôme",
 			Русский = "Приведение"
 		},
 		desc = {
 			English = "Just be a ghost!",
 			Deutsch = "Sei einfach wie ein Geist!",
-			French = "Soyez juste un fantôme!",	
+			French = "Soyez juste un fantôme!",
 			Русский = "Просто будь приведением!"
 		}
 	}
